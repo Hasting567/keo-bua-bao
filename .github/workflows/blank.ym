@@ -1,0 +1,28 @@
+options( ' kéo ' ,'búa ', 'bao ' )
+player = None 
+computer = random. choice(options) 
+running = True 
+
+player = input('enter a choice ( 'kéo ' ,'búa' , ' bao ':')
+print(f'Player:{player}')
+print(f'Computer:{computer}')
+
+
+if player == computer : 
+  print (" hòa!")
+elif player == ' búa ' and computer == ' kéo ' 
+print('bạn thắng !')
+elif player == ' kéo ' and computer == ' bao  ' 
+print(' bạn thắng ! ')
+elif player == 'bao' and computer == ' búa ' 
+print ( ' bạn thằng !' ) 
+else :print('bạn thua' , 'trò chơi kết thúc' ) 
+if not input('chơi lại'(y/n):').lower() == 'y':
+running = False 
+print ( ' cảm ợn vì đã chơi ' ) 
+
+
+
+
+ 
+
